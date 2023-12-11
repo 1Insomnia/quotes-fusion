@@ -8,6 +8,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
+    extend: {
+      height: {
+        "screen-cropped": "calc(100vh - 64px)"
+      }
+    },
     container: {
       center: true,
       padding: {
