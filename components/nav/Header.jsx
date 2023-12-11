@@ -21,7 +21,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className="text-background-neutral bg-foreground sticky top-0">
+    <header className="sticky top-0 header">
       <div className="container">
         <div className="h-16 flex items-center justify-between">
           <NavLink href="" text="NF" cn="font-bold nav-link" />

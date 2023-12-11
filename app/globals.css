@@ -56,6 +56,14 @@
 }
 
 @layer components {
+  .header {
+    @apply text-background-neutral;
+    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter:saturate(180%) blur(5px);
+    box-shadow: inset 0 -1px 0 0 #101112;
+    z-index: 999;
+  }
+
   .nav-link {
     @apply relative text-background-neutral hover:text-background-neutral-hover h-full flex items-center;
   }
