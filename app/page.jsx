@@ -1,3 +1,4 @@
+"use client"
 import HomeTextDisplay from "@/components/HomeTextDisplay"
 import Section from "@/components/Section"
 

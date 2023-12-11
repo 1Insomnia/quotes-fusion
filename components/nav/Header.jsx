@@ -11,11 +11,6 @@ const links = [
     id: 2,
     text: "Authors",
     href: "authors"
-  },
-  {
-    id: 3,
-    text: "Topics",
-    href: "topics"
   }
 ]
 
