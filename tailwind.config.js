@@ -8,6 +8,12 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "20px"
+      }
+    },
     colors: {
       primary: {
         light: "#60bbfc",
