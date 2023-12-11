@@ -10,13 +10,8 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        "screen-cropped": "calc(100vh - 64px)"
-      }
-    },
-    container: {
-      center: true,
-      padding: {
-        DEFAULT: "20px"
+        "screen-cropped": "calc(100vh - 64px)",
+        "screen-1/2": "50vh"
       }
     },
     colors: {
